@@ -1,0 +1,36 @@
+<body bgcolor='MintCream'>
+<!DOCTYPE html><html>
+<a href='index.html'> Home </a>
+<center> Settings 
+  <form name="input" method="GET" action="CSProj.py">
+    <br><h5>Page Lengths</h5>
+    <input type="radio" name="length" value="5">5<br>
+    <input type="radio" name="length" value="10">10<br>
+    <input type="radio" name="length" value="20">20<br>
+    <input type="radio" name="length" value="30">30<br>
+    <input type="radio" name="length" value="40">40<br>
+    <input type="radio" name="length" value="50">50<br>
+    <input type="radio" name="length" value="60">60<br>
+    <input type="radio" name="length" value="70">70<br>
+     Desired Page Length Here(# of lines): <input type="text" name="plen"><br>
+Warning: Don't give inputs that are too long(you will crash the server!)<br><br>
+<h5>Characters to use in generating book</h5>
+Separate your characters with commas with no spaces between them <br> e.g.: @,#,$,!
+<br><textarea rows="11" name="chars"cols="30"></textarea><br>
+Use English Alphabet as well?<br>
+<input type="radio" name="alpha" value="yes" checked='checked'>yes<br>
+<input type="radio" name="alpha" value="no">no<br>
+<h5>Looking for words?</h5><br>
+Word Lengths in Characters:<br>
+<input type="radio" name="wlen" value="2" checked='checked'>2<br>
+<input type="radio" name="wlen" value="3">3<br>
+<input type="radio" name="wlen" value="4">4<br>
+<input type="radio" name="wlen" value="5">5<br>
+<input type="radio" name="wlen" value="6">6<br>
+<input type="radio" name="wlen" value="78">7 or 8<br>
+Using 2 to 5 is recommended as the other choices may time out(that is: try to avoid using them)!<br>
+Should you timeout try using Lisa instead of Bart(Lisa > Bart)<br>
+<input type="submit" value="Submit">
+</form>
+</center></html>
+</body>

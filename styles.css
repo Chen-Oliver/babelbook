@@ -1,0 +1,32 @@
+body {
+    background-color: MintCream;
+}
+
+p {
+    color: black;
+    width 5px;
+    border-style: double;
+    margin-left:380px;
+    margin-right:380px; 
+}
+a {
+        color: LightCoral;
+        font-family:"Times New Roman", Georgia, Serif;
+        font-size: 30px;
+	margin-down: 100px;
+}
+table{
+	position:relative;
+	right:-55px;
+	top:-95px;
+	left:-10px;
+}
+a.home{
+	position:relative;
+	top:169px;
+}
+a.botL{
+	position:relative;
+	left:-720px;
+	bottom:-190px;
+}
